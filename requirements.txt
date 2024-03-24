@@ -70,7 +70,7 @@ pure-eval
 pycparser
 pydub
 Pygments
-PyJWT0
+PyJWT
 pylint
 pyparsing
 python-dateutil
