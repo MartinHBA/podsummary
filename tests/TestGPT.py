@@ -24,7 +24,7 @@ summary = summarize_text_with_chatgpt(text_content, api_key)
 if summary:
     print("Summary in Slovak (in bullet points):", summary)
     # Saving the summary to a file
-    with open('response.txt', 'w', encoding='utf-8') as file:
+    with open('workload/response.txt', 'w', encoding='utf-8') as file:
         file.write(summary)
     print("Summary saved to response.txt")
 else:
